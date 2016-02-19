@@ -1,0 +1,249 @@
+/*
+* Theme Name:   Sensation Red Lbc
+* Theme URI:    http://wordpress.laga.nl/sensationred
+* Description:  Sensation red child theme for LBC
+* Author:       IT Laga | Bram Bronswijk  
+* Author URI:   http://laga.nl
+* Template:     sensationred
+* Version:      1.5.0
+* 
+* Dit stylesheet styled de homepage voor het lbc theme
+* Daarnaast ondersteund het theme lbc partners in plaats van hoofdsponsoren
+*/
+
+header{
+	height:170px;
+	width:100%;	
+	min-width:1010px;
+	position:relative;
+	margin-top:0;
+	z-index:15;
+}
+
+header li{
+	list-style: none;
+}
+
+nav{
+	width:1000px;
+	border-radius:5px;
+	border:1px solid #b8b8b8;
+	background:#fff;
+	height:44px;
+	z-index:60;
+}
+
+nav ul{
+	padding-top:10px;
+}
+
+nav ul li{
+	margin:0;
+	list-style:none;
+	float:left;
+	padding:3px 20px;
+	border-right:1px solid #b8b8b8;
+}
+
+nav ul li:nth-child(1){
+	border-left:1px solid #b8b8b8;
+	margin-left:20px;
+}
+
+nav ul li a {
+	text-decoration:none;
+	color:#000;
+	font-size:16px;
+}
+
+nav ul li:hover > a {
+	color:#ea1a35;	
+}
+
+
+nav ul li.current_page_item a {
+	color:#ea1a35; 
+}
+
+nav ul li.current-page-parent a {
+	color:#ea1a35; 
+}
+
+nav ul li.current_page_item ul  li a {
+	color:#000; 
+}
+
+
+nav ul li.current_page_parent ul  li a {
+	color:#000; 
+}
+
+nav ul ul{
+	z-index:99;
+	position:absolute;
+	background:#fff;
+	margin-top:3px;
+	margin-left:-20px;
+	overflow:hidden;
+	max-height:0;
+	padding:0 20px;
+	
+	-webkit-transition: max-height 0.5s ease-in-out;
+    -moz-transition: max-height 0.5s ease-in-out;
+    -o-transition: max-height 0.5s ease-in-out;
+    -ms-transition: max-height 0.5s ease-in-out;
+    transition: max-height 0.5s ease-in-out;
+    
+    transition: 0.2s ease-in;
+	transition-delay: 0.2s;
+	-moz-transition-delay: 0.2s;
+	-webkit-transition-delay: 0.2s;
+	-o-transition-delay: 0.2s;
+}
+
+nav ul ul li{
+	margin:0;
+	padding:7px 10px;
+	float:none;
+	min-width:80px;
+	border:none;
+}
+
+nav ul ul li a{
+	font-size:12px;
+}
+
+nav ul ul li:nth-child(1){
+	margin-left:0;
+	margin-top:10px;
+	color:#000;
+	border:none;
+}
+
+nav ul ul li:nth-last-child(1){
+	margin-bottom:20px;
+}
+
+nav li:hover > ul{
+	max-height:500px;
+}
+
+.main_home .wrapper{	
+	width:900px;
+	margin-top:100px;
+	background:none;
+	padding-bottom:60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.shortcut_menu{
+	position:relative;
+	width:425px;
+	padding:5px;
+	margin:0 15px 15px 5px;
+	z-index:3;
+	height:auto;
+	overflow:hidden;
+}
+
+.shortcut_menu .title{
+	padding:24px 25px;
+}
+
+.shortcut_menu h1{
+	position:relative;
+	color:#fff;
+	z-index:4;
+	opacity:1;
+	text-transform:uppercase;
+	font-size:30px;
+	line-height: 37px;
+	margin-bottom:0;
+	font-weight:100;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.04);
+}
+
+.list_nav{
+	position: relative;
+	z-index: 4;
+}
+
+.list_nav ul li{
+	margin-left:0;
+	border-top: 1px solid #b0b0b0;
+}
+
+.list_nav ul li:hover{
+	background:rgba(180, 180, 180);
+	background:rgba(180, 180, 180, .25);
+}
+
+.list_nav li a{
+	display:inline-block;
+	color:#fff;
+	padding:12px 20px;
+	width:440px;
+}
+
+.list_nav li a:after{
+	content: '\00BB';
+	right:20px;
+	position:absolute;
+	
+	-webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out; 
+}
+
+.list_nav li:hover a:after{
+	right:15px;
+}
+
+.bg_sc_menu{
+	text-indent:-9999px;
+	position:absolute;
+	top:0;
+	left:0;
+	background:#000;
+    /* These three lines are for transparency in all browsers. */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity:.5;
+	width:100%;
+	height:100%;
+	z-index:3;
+}
+
+.home_shortcut_menu .title{
+	font-size:40px;
+	color:#fff;
+}
+
+.homepage_block{
+	float:left;
+	margin:0 10px 0 0;
+	height:auto;
+}
+
+.homepage_block h2{
+	padding: 20px 20px 20px 20px;
+	font-size:14px;
+	color:#fff;
+	position:relative;
+	z-index: 4;	
+	border-top:1px solid #fff;
+}
+
+.homepage_block p{
+	padding: 0 20px 10px 20px;
+	color:#fff;
+	position: relative;
+	z-index: 4;
+}
+
+.homepage_block .lbc_read_more{
+	color:#fff;
+}
