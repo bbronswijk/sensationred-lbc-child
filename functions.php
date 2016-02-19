@@ -10,10 +10,10 @@
 	}add_action('wp_enqueue_scripts', 'remove_he_stylesheets',100);
 	
 	// theme update checker
-	$MyUpdateChecker = new ThemeUpdateChecker(
+	/*$MyUpdateChecker = new ThemeUpdateChecker(
 	    'sensationred-lbc-child',
 	    'https://kernl.us/api/v1/theme-updates/56bf7d295beefbf6327fc266/'
-	);
+	);*/
 
 	// load parent style
 	function enqueue_parent_theme_styles() {
