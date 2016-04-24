@@ -33,6 +33,9 @@
 			</div>
 			
 			<div class="homepage_column">
+				<div id="linkedIn" class="shortcut_menu homepage_block">
+					<a href="http://businessclub.laga.nl/linkedin/"><img src="http://businessclub.laga.nl/wp-content/uploads/2016/04/linkedin2.png" alt="linkedIn"></a>
+				</div>
 				<div class="shortcut_menu homepage_block">
 					<div class="title">
 						<h1>Evenementen</h1>	

@@ -234,6 +234,13 @@
 .homepage_block .lbc_read_more{
 	color:#fff;
 }
+
+#linkedIn a img{
+	max-width: 100%;
+	height: auto;
+}
+
+
 /* MEDIA QUERIES */
 @media all and (max-width : 980px){
 	.home nav.main_nav ul li{
