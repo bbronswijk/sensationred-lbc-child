@@ -29,7 +29,6 @@
 	function create_lbc_posttypes() {
 		// register the posttype
 		register_post_type( 'evenementen', array(
-				'hierarchical' => true,
 				'labels' => array(
 					'name' => __( 'evenementen', 'sensationred' ),
 					'singular_name' => __( 'evenement', 'sensationred' )
